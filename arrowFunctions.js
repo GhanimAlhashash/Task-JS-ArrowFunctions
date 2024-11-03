@@ -1,9 +1,7 @@
 /**
  * Rewrite the following `greet` function as an arrow function
  */
-function greet(name) {
-  return `Hello ${name}`;
-}
+const greet = (name) => `Hello ${name}`;
 
 /**
  * sum(a, b):
@@ -11,9 +9,7 @@ function greet(name) {
  * - returns their sum
  * - write it as an arrow function
  */
-function sum(a, b) {
-  // Your code here
-}
+const sum = (a, b) => a + b;
 
 /**
  * square(n):
@@ -25,9 +21,7 @@ function sum(a, b) {
  * square(4) -> 16
  * sqaure(10) -> 100
  */
-function square(n) {
-  // Your code here
-}
+const square = (n) => n * n;
 
 /**
  * 🌶️🌶️
@@ -39,9 +33,13 @@ function square(n) {
  * e.g.
  * squares([1, 2, 3]) -> [1, 4, 9]
  */
-function squares(numbers) {
-  // Your code here
-}
+const squares = (numbers) => {
+  sqr = [];
+  for (x = 0; x < numbers.length; x++) {
+    sqr.push(numbers[x] * numbers[x]);
+  }
+  return sqr;
+};
 
 module.exports = {
   greet,

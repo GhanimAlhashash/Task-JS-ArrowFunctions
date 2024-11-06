@@ -16,7 +16,7 @@ const sum = (a, b) => a + b;
  * - receives a number n
  * - returns the square of the number
  * - write it as an arrow function
- *
+ *hi
  * e.g.
  * square(4) -> 16
  * sqaure(10) -> 100

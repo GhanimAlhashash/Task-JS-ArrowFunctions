@@ -6,7 +6,7 @@ const greet = (name) => `Hello ${name}`;
 /**
  * sum(a, b):
  * - revieces two numbers
- * - returns their sum
+ * - returns their sum hi
  * - write it as an arrow function
  */
 const sum = (a, b) => a + b;
